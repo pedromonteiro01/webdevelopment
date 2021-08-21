@@ -1,0 +1,39 @@
+#box{
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#shadows #container{
+    width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fc3;
+    box-shadow: 4px 10px #333;
+    /*horizontal vertical blur spread color*/
+}
+
+#shadows h1{
+    color: white;
+    text-shadow: 2px 2px black; /*default color is white*/
+                /*horizontal vertical blur color*/
+}
+
+#three-columns{
+    -webkit-column-count: 3; /*for google chrome*/
+    column-count: 3;
+
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
+
+    -webkit-column-rule-style: solid;
+    column-rule-style: solid;
+
+    -webkit-column-rule-color: #fc3;
+    column-rule-color: #fc3;
+}
