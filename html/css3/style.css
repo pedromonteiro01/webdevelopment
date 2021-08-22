@@ -1,4 +1,5 @@
 #box{
+    background: red;
     height: 200px;
     width: 200px;
     margin: 40px auto;
@@ -36,4 +37,81 @@
 
     -webkit-column-rule-color: #fc3;
     column-rule-color: #fc3;
+}
+
+/*Animations*/
+
+@keyframes box {
+    from { border-radius: 40px; background-color:red; top: 0; left: 0;}
+    to { border-radius: 100px; background-color: black; top: 100px; left: 100px;}
+}
+
+#animations #box{
+    position: relative;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out; /*starts slow, then acelerates*/
+    animation-delay: 4s;
+    animation-iteration-count: 3; /*number of animations*/
+    animation-direction: alternate;
+}
+
+/*Transitions*/
+#box2{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+#box2:hover{
+    background: red;
+    width: 300px;
+    height: 300px;
+    top: -20px;
+    left: 30px;
+    transition: all 4s;
+    transition-timing-function: ease-in;
+}
+
+/*Buttons*/
+@keyframes buttonAnimation {
+    from {padding: 10px 20px; font-size: inherit}
+    to {padding: 15px 30px; font-size: 24px;}
+}
+
+.button {
+    display: inline-block;
+    background: #fc3;
+    background: linear-gradient(#fc3, #f91);
+    border: solid 1px #999;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+.button:hover{
+    border-color: #888;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.9);
+    background: #f91;
+    background: linear-gradient(to top, #fc3, #f91);
+    animation: buttonAnimation;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.button:active{
+    position: relative;
+    top: 1px;
+}
+
+.alt-button{
+    background: radial-gradient(#fc3, #f91);
+}
+
+.alt-button:hover{
+    background: radial-gradient(#f91, #fc3);
 }
