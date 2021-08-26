@@ -149,26 +149,4 @@ $(function() {
         $('.car').css('left','0');
         $('.raceInfo span').text('');
     });
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-   
-    
 });
-    
-
-
-
-
-
-
-
-
