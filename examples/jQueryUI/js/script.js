@@ -27,7 +27,7 @@ $(function(){
         changeMonth: false,
         changeYear: false,
         numberOfMonths: 2,
-        minDate: 0 /*can't chosse nothing in the past (other values: -1D, -2W)*/ 
+        minDate: 0 /*can't choose nothing in the past (other values: -1D, -2W)*/ 
     });
 
 });
