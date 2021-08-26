@@ -1,2 +1,10 @@
 # Full Stack Web Development course by Udemy
-- Using html, css, javascript, jQuery, jQueryUI, bootstrap, php, mySQL
+Languages and frameworks used:
+- HTML
+- CSS
+- Javascript
+- jQuery
+- jQueryUI
+- bootstrap 
+- php
+- mySQL
