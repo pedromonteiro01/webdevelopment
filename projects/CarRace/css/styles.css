@@ -48,7 +48,7 @@ form input {
 
 
 #racetrack {
-    background: url('../img/road.jpg') center left repeat-x;
+    background: url('../img/road.jpg') center left repeat-x; /*repeat image along the x-axis*/
     height: 330px;
     border-right: dashed 10px white;
     box-sizing: border-box;
@@ -57,7 +57,7 @@ form input {
 
 .car {
     display: block;
-    position: relative;
+    position: relative; /*because position will be manipulated in jQuery*/
 }
 
 #car1 { top: 30px; }
@@ -112,7 +112,7 @@ input#reset {
     color: #444;
 }
 
-.clearfix:after {
+.clearfix:after { /*because of colapse with floats*/
     content:"";
     display: table;
     clear: both;

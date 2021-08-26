@@ -93,7 +93,7 @@ $(function() {
         var carWidth = $('#car1').width();
         
         // get the width of the racetrack
-        var raceTrackWidth = $(window).width() - carWidth;
+        var raceTrackWidth = $(window).width() - carWidth; //$(window).width() -> full width of the browser
         
         // generate a random # between 1 and 5000
         
