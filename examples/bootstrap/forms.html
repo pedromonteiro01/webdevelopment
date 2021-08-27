@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link href="bootstrap-5.1.0-dist/css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>Bootstrap Forms</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+          <h1>Bootstrap Forms</h1>
+          <p class="lead">Let's work with some pre-styled forms!</p>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+            <form>
+                <div class="form-group">
+                    <label for="formName" class="text-danger">Your Name</label>
+                    <input type="text" id="formName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="formEmail">Your Email</label>
+                    <input type="email" id="formEmail" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="formMessage">Your Message</label>
+                    <textarea class="form-control" rows="4"></textarea>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Checkbox
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="formRadio"> Radio input #1
+                    </label> 
+                    <br>
+                    <label>
+                        <input type="radio" name="formRadio"> Radio input #2
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-sm-8">
+            <form class="form-inline">
+                <div class="form-group">
+                    <!--<label for="loginEmail" class="sr-only">Email</label>-->
+                    <div class="input-group">
+                        <div class="input-group-text">$</div>
+                        <input type="email" id="loginEmail" class="form-control" placeholder="Dollar Amount">
+                        <div class="input-group-text">.00</div>
+                    </div>
+                    <!--<label for="loginPassword" class="sr-only">Password</label>-->
+                    <input type="password" id="loginPassword" class="form-control" placeholder="Password">
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </div>
+            </form>
+        </div>
+      </div> <!--Row-->
+      <br> <br> <hr>
+
+      <div class="row">
+        <div class="col-sm-6">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">First Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </form>
+        </div>
+      </div><!--Row-->
+    </div> <!--Container-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
