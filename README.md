@@ -6,5 +6,7 @@ Languages and frameworks used:
 - jQuery
 - jQueryUI
 - bootstrap 
+- Angular js
 - php
 - mySQL
+- WordPress
