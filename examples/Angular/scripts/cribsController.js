@@ -10,15 +10,15 @@ angular
             },
             { 
                 "type": "House",
-                "price": "200000",
-                "address": "213 Grove Street",
-                "description": "Excellent place"
+                "price": "410500",
+                "address": "213 Winding Way",
+                "description": "Beautiful home"
             },
             { 
                 "type": "Duplex",
-                "price": "200000",
-                "address": "213 Grove Street",
-                "description": "Excellent place"
+                "price": "395000",
+                "address": "834 River Lane",
+                "description": "Great neighbourhood, a lot's of green space"
             }
         ]; 
     } );
