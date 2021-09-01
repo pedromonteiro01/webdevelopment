@@ -1,4 +1,4 @@
-# Full Stack Web Development course by Udemy
+# Full Stack Web Development course
 Languages and frameworks used:
 - HTML
 - CSS
